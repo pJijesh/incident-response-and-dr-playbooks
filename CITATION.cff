@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it using the metadata below."
+title: "Incident Response and DR Playbooks"
+abstract: "UK-focused incident response and disaster recovery playbooks, templates and a tabletop exercise for small IT teams."
+type: software
+authors:
+  - family-names: "Puliyappottammal"
+    given-names: "Jijesh"
+repository-code: "https://github.com/pJijesh/incident-response-and-dr-playbooks"
+url: "https://github.com/pJijesh/incident-response-and-dr-playbooks"
+license: MIT
+version: 1.0.0
+date-released: "2026-11-11"
+keywords:
+  - business-continuity
+  - cybersecurity
+  - disaster-recovery
+  - incident-response
+  - ransomware
+  - tabletop-exercise
+  - uk-gdpr

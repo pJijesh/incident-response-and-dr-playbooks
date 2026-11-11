@@ -1,5 +1,7 @@
 # Incident Response and DR Playbooks
 
+![Incident Response and DR Playbooks: project banner](docs/images/banner.png)
+
 [![CI](https://github.com/pJijesh/incident-response-and-dr-playbooks/actions/workflows/ci.yml/badge.svg)](https://github.com/pJijesh/incident-response-and-dr-playbooks/actions/workflows/ci.yml) [![Licence: MIT](https://img.shields.io/badge/licence-MIT-blue.svg)](LICENSE) ![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-blue.svg)
 
 **Problem:** small IT teams in regulated businesses are expected to survive ransomware, fraud, data breaches and outages, but their plans are often long, untested and unusable at 2am.
