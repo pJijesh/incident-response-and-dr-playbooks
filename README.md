@@ -97,10 +97,10 @@ Corrections, clearer wording and extra playbooks are welcome. See [CONTRIBUTING.
 
 ## Author
 
-Written by Jijesh Puliyappottammal, an IT manager responsible for disaster recovery and cyber incident response in a regulated UK environment, where ISO 27001 and PCI-style audit expectations shape what "ready" has to mean. This repository is a generic, personal project and contains no employer material.
+Written by Puliyappottammal Jijesh, an IT manager responsible for disaster recovery and cyber incident response in a regulated UK environment, where ISO 27001 and PCI-style audit expectations shape what "ready" has to mean. This repository is a generic, personal project and contains no employer material.
 
 [GitHub: pJijesh](https://github.com/pJijesh) | [LinkedIn: pjijesh](https://www.linkedin.com/in/pjijesh)
 
 ## Licence
 
-[MIT](LICENSE), 2026 Jijesh Puliyappottammal.
+[MIT](LICENSE), 2026 Puliyappottammal Jijesh.
