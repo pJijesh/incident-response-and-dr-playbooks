@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Node (only needed to re-render the dependency map)
+node_modules/
+
+# Editors and OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Local scratch and secrets (never commit real incident data or credentials)
+*.local.md
+scratch/
+.env
+*.pem
+*.key

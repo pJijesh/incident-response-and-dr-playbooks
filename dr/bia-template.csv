@@ -1,0 +1,2 @@
+id,name,owner_role,description,primary_systems,impact_1h,impact_4h,impact_24h,impact_72h,mtpd_hours,rto_hours,rpo_hours,tier,peak_periods,workaround,key_dependencies,regulatory_contractual_driver,notes
+BP00,{{process name}},"{{role, not a person}}",{{one-line description}},{{systems}},{{1-5}},{{1-5}},{{1-5}},{{1-5}},{{hours}},{{hours}},{{hours}},{{T0-T4}},{{peak periods}},{{manual workaround}},{{dependencies separated by semicolons}},{{regulatory or contractual driver}},{{notes}}
