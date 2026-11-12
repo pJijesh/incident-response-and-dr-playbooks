@@ -28,5 +28,8 @@ jobs:
       - name: Lint playbooks and check every internal link
         run: python tools/check_playbooks.py --all-links
 
+      - name: Check the DR gap report example is current
+        run: python tools/check_dr.py --check docs/dr-gap-report-example.md
+
       - name: Run tests
         run: python -m unittest discover -s tests -v

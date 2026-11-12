@@ -22,7 +22,7 @@ The full data is in [bia-worked-example.csv](bia-worked-example.csv). Impact is 
 | BP08 | Card payments from customers | 2 | 3 | 72 h | 24 h | 4 h | T2 |
 | BP09 | File shares and scanned documents | 3 | 4 | 48 h | 24 h | 4 h | T2 |
 | BP12 | Sales CRM and quoting | 1 | 2 | 7 d | 72 h | 24 h | T3 |
-| BP13 | HR records and recruitment | 1 | 2 | 7 d | 72 h | 24 h | T3 |
+| BP13 | HR records and recruitment | 1 | 2 | 7 d | 24 h | 24 h | T2 |
 | BP14 | Management reporting | 1 | 1 | 14 d | 7 d | 24 h | T4 |
 
 ## What the exercise revealed (fictional findings)
@@ -35,6 +35,7 @@ These illustrate the kind of findings a real BIA surfaces. They are examples, no
 4. **Warehouse paper fallback has a limit.** The warehouse can run on paper for about 8 hours before stock accuracy suffers. This sets BP03's RTO of 4 hours with a margin.
 5. **Payroll day lifts BP07 to a T1-like target for that day.** Recorded in peak periods.
 6. **Managed service provider is a dependency of three T0 and T1 services.** Action: review the contract for incident response times against the RTOs.
+7. **The HR system was first rated T3, but payroll (T2) depends on it.** A service cannot be recovered faster than what it depends on, so the HR system moved to T2 with a 24 hour RTO. `python tools/check_dr.py` found this inconsistency in the first draft of this example.
 
 ## From BIA to action
 

@@ -24,6 +24,7 @@ Section numbers in headings are optional for the checker but the existing playbo
 
 ```bash
 python tools/check_playbooks.py --all-links
+python tools/check_dr.py --as-of 2026-11-02 --markdown --output docs/dr-gap-report-example.md
 python -m unittest discover -s tests -v
 ```
 

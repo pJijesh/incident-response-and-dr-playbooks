@@ -49,7 +49,7 @@ flowchart TB
     FIN["Finance and payments"]:::t2
     PAY["Card payment gateway<br/>(PCI scope)"]:::t2
     CRM["CRM and quoting"]:::t3
-    HR["HR and payroll"]:::t3
+    HR["HR and payroll"]:::t2
   end
 
   subgraph EXT["Third parties"]
