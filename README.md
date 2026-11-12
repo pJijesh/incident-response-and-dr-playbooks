@@ -2,7 +2,7 @@
 
 ![Incident Response and DR Playbooks: project banner](docs/images/banner.png)
 
-[![CI](https://github.com/pJijesh/incident-response-and-dr-playbooks/actions/workflows/ci.yml/badge.svg)](https://github.com/pJijesh/incident-response-and-dr-playbooks/actions/workflows/ci.yml) [![Licence: MIT](https://img.shields.io/badge/licence-MIT-blue.svg)](LICENSE) ![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-blue.svg)
+[![CI](https://github.com/pJijesh/incident-response-and-dr-playbooks/actions/workflows/ci.yml/badge.svg)](https://github.com/pJijesh/incident-response-and-dr-playbooks/actions/workflows/ci.yml) [![Licence: MIT](https://img.shields.io/badge/licence-MIT-blue.svg)](LICENSE) ![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)
 
 **Problem:** small IT teams in regulated businesses are expected to survive ransomware, fraud, data breaches and outages, but their plans are often long, untested and unusable at 2am.
 
@@ -72,7 +72,7 @@ python tools/check_dr.py                        # check the worked-example BIA a
 python -m unittest discover -s tests -v         # run the tests
 ```
 
-The linter requires every playbook to contain the 14 sections in order with content, a one-page checklist with enough tick boxes, a metadata table with a review date, no TODO, FIXME or TBD markers, no broken internal links or heading anchors, and no em-dashes. It prints a summary table and exits non-zero on errors. It uses only the Python standard library (3.9 or later). CI runs both commands on every push and pull request.
+The linter requires every playbook to contain the 14 sections in order with content, a one-page checklist with enough tick boxes, a metadata table with a review date, no TODO, FIXME or TBD markers, no broken internal links or heading anchors, and no em-dashes. It prints a summary table and exits non-zero on errors. It uses only the Python standard library (3.10 or later). CI runs both commands on every push and pull request.
 
 The linter checks structure, not quality. It cannot tell you whether a playbook is any good. Only exercises and real incidents can.
 

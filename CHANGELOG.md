@@ -18,6 +18,11 @@ All notable changes to this project are recorded here. The format follows
 
 - Worked example: the HR system is now Tier 2 with a 24 hour RTO, because payroll (Tier 2) depends on it. The dependency map is redrawn.
 
+### Changed
+
+- Minimum Python is now 3.10. Python 3.9 reached end of life in October 2025 and the current `actions/setup-python` no longer installs it, so CI could not test it.
+
+
 ## [1.0.0] - 2026-11-11
 
 ### Added
